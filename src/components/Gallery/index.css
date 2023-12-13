@@ -1,0 +1,45 @@
+/* Write your code here. */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.gallery-image-big {
+  display: flex;
+  padding: 15px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  margin-bottom: 10px;
+}
+.text-content {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.thumbnails-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.gallery-image-big {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-image {
+  flex-grow: 1;
+  border-radius: 8px;
+}
+.heading {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.description {
+  color: #64748b;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
